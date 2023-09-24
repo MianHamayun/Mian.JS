@@ -1,8 +1,8 @@
-const accountId = 144553
-let accountEmail = "john@google.com"
-var accountPassword = "123456"
-accountCity = "London"
+const accountId = 144553;
+let accountEmail = "john@google.com";
+var accountPassword = "123456";
+accountCity = "London";
 
-// accountId = 2;
+// accountId = 2; // not allowed
 
 console.log(accountEmail);
