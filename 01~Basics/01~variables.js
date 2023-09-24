@@ -3,6 +3,6 @@ let accountEmail = "john@google.com"
 var accountPassword = "123456"
 accountCity = "London"
 
-accountId = 2;
+// accountId = 2;
 
-console.log(accountId);
+console.log(accountEmail);
