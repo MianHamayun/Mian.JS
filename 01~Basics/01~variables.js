@@ -9,6 +9,7 @@ let accountState; // JavaScript considers a variable undefined which was not def
 {
         /* This is called scope. eg; function scope,block scope.
         we use if else statement,for loops,functions and many more within it.
+        :):):)
         
          */
 }
