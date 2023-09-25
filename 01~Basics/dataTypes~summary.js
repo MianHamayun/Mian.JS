@@ -45,7 +45,7 @@ const myFunction = function () {
 
 // ***************************************************************
 
-// Stack (Primitive) **original reference,   Heap (Non Primitive) **copy of datatype
+// Stack (Primitive),   Heap (Non Primitive)
 
 
 let myYoutubeName = "howardatlasdotcom"
