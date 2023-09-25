@@ -7,7 +7,7 @@ let accountState; // JavaScript considers a variable undefined which was not def
 // accountId = 2; *****not allowed*****
 
 {
-        /* This is called scope. eg; function scope,block scope.
+  /* This is called scope. eg; function scope,block scope.
         we use if else statement,for loops,functions and many more within it.
         :):):)
         
@@ -27,4 +27,10 @@ console.log(accountId);
     because of issue in block scope and functional scope
 */
 
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
+console.table([
+  accountId,
+  accountEmail,
+  accountPassword,
+  accountCity,
+  accountState,
+]);
