@@ -45,7 +45,7 @@ const obj2 = { 3: "c", 4: "d" }
 
 const obj3 = {...obj1, ...obj2}
 
-console.log(obj3);
+// console.log(obj3);
 
 
 
@@ -64,13 +64,63 @@ const users = [
 ]
 
 users[1].email;
-console.log(threadsUser);
+// console.log(threadsUser);
 
 
-console.log(Object.keys(threadsUser));
-console.log(Object.values(threadsUser));
-console.log(Object.entries(threadsUser));
+// console.log(Object.keys(threadsUser));
+// console.log(Object.values(threadsUser));
+// console.log(Object.entries(threadsUser));
 
 
 
-console.log(threadsUser.hasOwnProperty('isLoggedIn'));
+// console.log(threadsUser.hasOwnProperty('isLoggedIn'));
+
+
+
+
+// Destrucuring
+
+const course = {
+  coursename: "js in hindi",
+  price: "999",
+  courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// const { courseInstructor } = course
+const { courseInstructor: instructor } = course
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+
+
+// ReactJS Example
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "Howard")
+
+
+
+
+// JSON Example /API Example
+
+
+// {
+//   "name": "Howard",
+//     "coursename": "JS in Hindi",
+//       "price": "Free"
+// }
+
+// Another Example
+// [
+// { },
+// { },
+// { }
+// ]
+
+
