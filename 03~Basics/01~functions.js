@@ -46,16 +46,22 @@ const result = addTwoNumbers(3, 5);
 
 // console.log("Result: ", result);
 
-
 function loginUserMessage(username = "Jon") {
+  /*  if user did not give name.
+      You can check it with condition that,
+      if this doesnt happen.do this
+      We will simply write (username === undefined)
+      You can write (!username) which is simple.
+  */
   if (!username) {
     console.log("Please enter a username");
-    return
+    return;
   }
 
-  return `${username} just logged in`
-
+  return `${username} just logged in`;
 }
-loginUserMessage("Howard") // did not print
-console.log(loginUserMessage("Howard"))
-console.log(loginUserMessage())
+loginUserMessage("Howard"); // did not print
+console.log(loginUserMessage("Howard"));
+console.log(loginUserMessage());
+
+
