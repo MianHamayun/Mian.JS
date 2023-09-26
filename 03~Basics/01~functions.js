@@ -64,4 +64,38 @@ loginUserMessage("Howard"); // did not print
 console.log(loginUserMessage("Howard"));
 console.log(loginUserMessage());
 
+// function calculateCartPrice(...num1)
+// val1,val2 will take first 2 values and rest will print in the form of Array.
+function calculateCartPrice(val1,val2,...num1) {
+  return num1;
+}
+
+
+// console.log(calculateCartPrice(200, 400, 500, 2000)); // 200 printed. To solve this use `Rest Operator` e.g; (...num1)
+
+
+const user = {
+  username: "howard",
+  price: "299"
+}
+
+// To pass and then use Object in the Function
+function handleObject(anyobject) {
+  console.log(`Username is ${anyobject.username} and Price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+  username: "John",
+  price: "399"
+})
+
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray) {
+  return getArray
+}
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([100,200,300,4000]));
 
