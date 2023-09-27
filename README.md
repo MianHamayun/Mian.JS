@@ -1,6 +1,6 @@
 # Mian.JS
 MianHamayun Learning JavaScript Concepts Here to become a web developer
-# Taught by Hitesh Chouhdry Youtube Channel
+# Taught by Hitesh Choudhary Youtube Channel
 https://www.youtube.com/@chaiaurcode
 
 # Following and learning from Chai aur Javascript Video Series Hosted on YouTube
