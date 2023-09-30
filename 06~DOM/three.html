@@ -10,15 +10,15 @@
 <body style="background-color: #212121; color: #fff;">
   <script>
     const div = document.createElement('div');
-    console.log(div);
     div.className = "main"
-    div.id = mATH.round(Math.random() * 10 + 1)
+    div.id = Math.round(Math.random() * 10 + 1)
     div.setAttribute("title", "generated title")
-    div.style.backgroundColor = "green"
+    div.style.backgroundColor = "seagreen"
     div.style.padding = "12px"
     // div.innerText = "Chai aur Code"
     const addText = document.createTextNode("Chai aur Code")
     div.appendChild(addText)
+    console.log(div);
 
     document.body.appendChild(div)
   </script>
