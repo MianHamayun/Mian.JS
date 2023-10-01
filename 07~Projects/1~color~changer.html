@@ -23,8 +23,8 @@
       height: 350px;
     }
 
-    #grey {
-      background-color: grey;
+    #pink {
+      background-color: pink;
       border: 2px solid #212121;
       border-radius: 8px;
     }
@@ -50,7 +50,7 @@
 
   <h1>Color Scheme Switcher</h1>
   <div class="canvas">
-    <button class="button" id="grey"></button>
+    <button class="button" id="pink"></button>
     <button class="button" id="purple"></button>
     <button class="button" id="blue"></button>
     <button class="button" id="yellow"></button>
@@ -70,7 +70,7 @@
     button.addEventListener('click', function (e) {
       console.log(e);
       console.log(e.target);
-      if (e.target.id === "grey") {
+      if (e.target.id === "pink") {
         document.body.style.backgroundColor = e.target.id
       }
       if (e.target.id === "purple") {
