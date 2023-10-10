@@ -9,9 +9,9 @@ https://www.youtube.com/watch?v=Hr5iLG7sUa0&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5
 # Original Repo Link
 https://github.com/hiteshchoudhary/js-hindi-youtube
 
-# Author Profile
+# Original Author Profile
 https://github.com/hiteshchoudhary
 
 Please Follow!!!
-# Hitesh Chouhdry Quotes
+# Hitesh Chouhdhary Quotes
 Master Objects and Web Events.
